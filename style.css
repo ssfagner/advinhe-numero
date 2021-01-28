@@ -1,0 +1,41 @@
+html {
+  font-family: sans-serif;
+}
+body {
+  text-align: center;
+  width: 50%;
+  max-width: 800px;
+  min-width: 480px;
+  margin: 0 auto;
+}
+.lastResult {
+  color: white;
+  padding: 3px;
+}
+h1::after {
+  content: "";
+  display: block;
+  margin: 10px 350px;
+  width: 100px;
+  height: 1px;
+  border-bottom: 4px solid #000;
+}
+
+p {
+  font-weight: bold;
+}
+
+.envioPalpite {
+  color: white;
+  width: 130px;
+  font-weight: bold;
+  background: #511;
+  border-radius: 4px;
+}
+
+.envioPalpite:hover {
+  color: #000;
+  background: white;
+  cursor: pointer;
+  transition-duration: 3s;
+}
